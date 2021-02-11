@@ -20,7 +20,21 @@ Also see the code example inside the eclass.
 
 # Installation
 
-Add as a submodule to your overlay if using git and symlink the git-verify-signature.eclass file to `eclass` directory.
+To use this eclass in your overlay, add as a submodule to your overlay if using git and copy the git-verify-signature.eclass file to `eclass` directory.
+
+1. From the root directory of overlay, create `submodules`:
+
+        # mkdir submodules
+
+2. Add this repo as submodule:
+
+        # git submodule add https://github.com/VTimofeenko/git-verify-signature.eclass git-verify-signature.eclass
+
+3. Copy the file to eclass directory:
+
+        # cp submodules/git-verify-signature.eclass/git-verify-signature.eclass eclass/
+
+    **Note**: a symlink is not the best solution here, because at the time of writing `emerge --sync` and `emaint sync` do not retrieve submodules for overlays.
 
 # Example
 
