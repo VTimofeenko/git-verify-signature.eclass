@@ -28,7 +28,7 @@ To use this eclass in your overlay, add as a submodule to your overlay if using 
 
 2. Add this repo as submodule:
 
-        # git submodule add https://github.com/VTimofeenko/git-verify-signature.eclass git-verify-signature.eclass
+        # git submodule add https://github.com/VTimofeenko/git-verify-signature.eclass submodules/git-verify-signature.eclass
 
 3. Copy the file to eclass directory:
 
