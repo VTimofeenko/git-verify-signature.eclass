@@ -1,7 +1,5 @@
 This repo contains an eclass that may be used to verify the signature on the top commit of a repository checked out during `git-r3` based ebuild installation.
 
-git-verify-signature.eclass is based on  and exposes the same variables.
-
 # Usage
 
 This eclass relies on same variables as [`verify-sig.eclass`](https://gitweb.gentoo.org/repo/gentoo.git/tree/eclass/verify-sig.eclass) eclass. The simplest use case is installing a live ebuild. To verify the signature, add the following to your ebuild:
