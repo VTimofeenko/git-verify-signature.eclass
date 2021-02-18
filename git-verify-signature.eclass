@@ -6,6 +6,7 @@
 # Vladimir Timofeenko <overlay.maintain@vtimofeenko.com>
 # @AUTHOR:
 # Vladimir Timofeenko <overlay.maintain@vtimofeenko.com>
+# Alexey Mishustin <halcon@tuta.io>
 # @BLURB: Allows verifying signature on top commit of a git repository
 # @DESCRIPTION:
 # This eclass provides the ability to verify the signature on the

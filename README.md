@@ -26,3 +26,7 @@ Alternatively, install the latest `app-portage/git-verify-signature` from [nitra
 # Example
 
 See [weaveworld-overlay](https://github.com/VTimofeenko/weaveworld-overlay)
+
+# Credits
+
+The author would like to express his thanks to the participants of [the thread at Gentoo forums](https://forums.gentoo.org/viewtopic-t-1129590.html), specifically to Alexey Mishustin (halcon).
